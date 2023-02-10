@@ -20,6 +20,8 @@
 }
 /*BODY*/
 body {
+  max-width: 100%;
+  left: auto;
   margin: 0 auto;
 }
 /*NAVEGATION*/
@@ -347,7 +349,6 @@ footer {
   text-align: center;
   padding: 40px;
   filter: drop-shadow(1px 1px 4px var(--color-neon));
-  height: 70vh;
 }
 /*MENU-RESPONSIVE*/
 .menu-icon {
