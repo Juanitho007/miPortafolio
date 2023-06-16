@@ -369,10 +369,35 @@ footer {
   .collection div{
     height: 30rem;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     flex-grow: initial;
-  }
+    filter: blur(0);
+}
   .collection div:hover{
     height: 35rem;
+  }
+}
+@media (max-width: 768px) {
+  .collection div{
+    height: 25rem;
+}
+  .collection div:hover{
+    height: 30rem;
+  }
+}
+@media (max-width: 480px) {
+  .collection div{
+    height: 20rem;
+}
+  .collection div:hover{
+    height: 25rem;
+  }
+}
+@media (max-width: 280px) {
+  .collection div{
+    height: 15rem;
+}
+  .collection div:hover{
+    height: 20rem;
   }
 }
